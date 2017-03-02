@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "syntax": "node syntax"
+  },
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "shelljs": "^0.7.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
