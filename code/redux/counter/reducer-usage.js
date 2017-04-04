@@ -1,0 +1,1 @@
+reducer(undefined, {}); // 0

@@ -1,7 +1,8 @@
 #!/bin/bash
 
-FONT_SIZE=80
-FONT_FAMILY=Monaco
+FONT_SIZE=60
+# FONT_FAMILY=Monaco
+FONT_FAMILY=Hack
 # STYLE=molokai
 STYLE=seashell
 # STYLE=monokai

@@ -1,6 +1,26 @@
 {
-  "extends": "airbnb-base",
+  "extends": "airbnb",
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "arrow-parens": 0,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "no-console": 0,
+    "no-constant-condition": 0,
+    "no-restricted-syntax": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0
+  },
   "plugins": [
+    "react",
+    "jsx-a11y",
     "import"
   ]
 }
